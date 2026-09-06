@@ -18,7 +18,7 @@ const posts = (await getCollection('blog', ({ id }) => {
 const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort();
 ---
 
-<Layout title={`${t('nav.blog')} - TechBlog`}>
+<Layout title={`${t('nav.blog')} - TechBlog (repo edit R2)`}>
   <div class="mb-8">
     <div class="flex justify-between items-center mb-6">
       <h1 class="text-3xl font-bold text-gray-900 dark:text-white">{t('blog.latest')}</h1>
