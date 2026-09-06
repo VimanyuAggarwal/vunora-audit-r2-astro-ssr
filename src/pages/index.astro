@@ -1,4 +1,7 @@
 ---
+import { fetchPage, useFields } from '../lib/vunora'
+  const { data: cmsPage } = await fetchPage('index', Astro.currentLocale, Astro.cookies.get('supercms_visitor_id')?.value)
+  const f = useFields(cmsPage)
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
@@ -7,11 +10,11 @@ const posts = (await getCollection('blog')).sort(
 );
 ---
 
-<Layout title="Tech Blog - Home">
-  <h1 class="text-4xl font-bold mb-8 text-gray-900 dark:text-white">Welcome to Tech Blog</h1>
+<Layout title={f.layout_title_1 ?? 'Tech Blog - Home'}>
+  <h1 class="text-4xl font-bold mb-8 text-gray-900 dark:text-white">{f.heading_1 ?? 'Welcome to Tech Blog'}</h1>
   
   <section>
-    <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Latest Posts</h2>
+    <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">{f.heading_2 ?? 'Latest Posts'}</h2>
     <div class="grid gap-8">
       {posts.map(post => (
         <article class="border dark:border-gray-700 rounded-lg p-6 hover:shadow-lg transition-shadow">
@@ -35,3 +38,7 @@ const posts = (await getCollection('blog')).sort(
     </div>
   </section>
 </Layout>
+<script>
+  // Vunora browser runtime
+  import '../lib/vunora'
+</script>

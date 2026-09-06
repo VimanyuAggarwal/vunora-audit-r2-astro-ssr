@@ -1,4 +1,7 @@
 ---
+import { fetchPage, useFields } from '../../lib/vunora'
+  const { data: cmsPage } = await fetchPage('timeline', Astro.currentLocale, Astro.cookies.get('supercms_visitor_id')?.value)
+  const f = useFields(cmsPage)
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
@@ -26,7 +29,7 @@ const years = [...new Set(posts.map(post =>
       <div class="sticky top-4">
         <!-- Year Filter -->
         <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border dark:border-gray-700">
-          <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">{t('timeline.years')}</h2>
+          <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">{f.timeline_years_1 ?? t('timeline.years')}</h2>
           <div class="space-y-2">
             {years.map(year => (
               <button
@@ -103,4 +106,8 @@ const years = [...new Set(posts.map(post =>
       updateVisibility();
     });
   });
+</script>
+<script>
+  // Vunora browser runtime
+  import '../../lib/vunora'
 </script>

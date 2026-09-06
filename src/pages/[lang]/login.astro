@@ -1,4 +1,7 @@
 ---
+import { fetchPage, useFields } from '../../lib/vunora'
+  const { data: cmsPage } = await fetchPage('login', Astro.currentLocale, Astro.cookies.get('supercms_visitor_id')?.value)
+  const f = useFields(cmsPage)
 import Layout from '../../layouts/Layout.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 import { languages } from '../../i18n/ui';
@@ -14,12 +17,12 @@ const t = useTranslations(lang);
 <Layout title={`${t('login.title')} - TechBlog`}>
   <div class="max-w-md mx-auto mt-8">
     <div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
-      <h1 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white">{t('login.title')}</h1>
+      <h1 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white">{f.login_title_1 ?? t('login.title')}</h1>
       
       <form id="login-form" class="space-y-6">
         <div>
           <label for="password" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-            {t('login.password')}
+            {f.login_password_1 ?? t('login.password')}
           </label>
           <input
             type="password"
@@ -33,7 +36,7 @@ const t = useTranslations(lang);
           type="submit"
           class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
         >
-          {t('login.submit')}
+          {f.login_submit_1 ?? t('login.submit')}
         </button>
       </form>
 
@@ -60,4 +63,8 @@ const t = useTranslations(lang);
       errorMessage.classList.remove('hidden');
     }
   });
+</script>
+<script>
+  // Vunora browser runtime
+  import '../../lib/vunora'
 </script>
