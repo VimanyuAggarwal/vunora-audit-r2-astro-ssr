@@ -28,7 +28,7 @@ export const ui = {
     "contact.email": "Email address W1A",
     "contact.message": "Message",
     "contact.send": "Send Message",
-    "contact.followMe": "Follow Me",
+    "contact.followMe": "Follow me on the socials (repo edit W1A)",
     "login.title": "Login",
     "login.password": "Password",
     "login.submit": "Login",
