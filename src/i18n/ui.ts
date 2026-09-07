@@ -57,7 +57,7 @@ export const ui = {
     "timeline.years": "Años",
     "contact.title": "Contacto",
     "contact.name": "Nombre",
-    "contact.email": "Correo",
+    "contact.email": "Correo electrónico W1A ñ",
     "contact.message": "Mensaje",
     "contact.send": "Enviar Mensaje",
     "contact.followMe": "Sígueme",
