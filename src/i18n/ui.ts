@@ -22,7 +22,7 @@ export const ui = {
     "blog.sortNewest": "Newest First",
     "blog.sortOldest": "Oldest First",
     "timeline.title": "Timeline",
-    "timeline.years": "Years & Eras 🗓️ $& $1 $' done",
+    "timeline.years": "W1A ver one Years",
     "contact.title": "Contact",
     "contact.name": "Name",
     "contact.email": "Email",
