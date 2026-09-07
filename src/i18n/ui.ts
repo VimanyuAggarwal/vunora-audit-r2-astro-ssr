@@ -27,7 +27,7 @@ export const ui = {
     "contact.name": "LIVE-PROBE-W1A",
     "contact.email": "Email address W1A",
     "contact.message": "Message",
-    "contact.send": "Send Message",
+    "contact.send": "Send it over (repo inbound W1A)",
     "contact.followMe": "Follow Me (CMS edit W1A)",
     "login.title": "Login",
     "login.password": "Password",
