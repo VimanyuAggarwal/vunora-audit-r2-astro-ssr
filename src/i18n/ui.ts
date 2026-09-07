@@ -22,7 +22,7 @@ export const ui = {
     "blog.sortNewest": "Newest First",
     "blog.sortOldest": "Oldest First",
     "timeline.title": "Timeline",
-    "timeline.years": "W1A UNSAVED preview probe",
+    "timeline.years": "W1A control save no slug",
     "contact.title": "Contact",
     "contact.name": "LIVE-PROBE-W1A",
     "contact.email": "Email address W1A",
