@@ -15,7 +15,7 @@ export const ui = {
     "hero.title": "Welcome to TechBlog",
     "hero.subtitle": "Exploring technology, one post at a time",
     "hero.cta": "Read the Blog",
-    "blog.latest": "Latest Posts",
+    "blog.latest": "Latest posts, from the CMS",
     "blog.tags": "Tags",
     "blog.posts": "Posts",
     "blog.postsTagged": "Posts tagged",
