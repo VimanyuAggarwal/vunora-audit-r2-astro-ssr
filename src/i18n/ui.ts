@@ -25,7 +25,7 @@ export const ui = {
     "timeline.years": "W1A ver four Years",
     "contact.title": "Contact",
     "contact.name": "Name",
-    "contact.email": "Email",
+    "contact.email": "Email address W1A",
     "contact.message": "Message",
     "contact.send": "Send Message",
     "contact.followMe": "Follow Me",
