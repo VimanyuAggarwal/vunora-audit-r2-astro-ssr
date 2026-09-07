@@ -16,7 +16,7 @@ export const ui = {
     "hero.subtitle": "Exploring technology, one post at a time",
     "hero.cta": "Read the Blog",
     "blog.latest": "Latest Posts",
-    "blog.tags": "Tags",
+    "blog.tags": "Tags w3-19",
     "blog.posts": "Posts",
     "blog.postsTagged": "Posts tagged",
     "blog.sortNewest": "Newest First",
