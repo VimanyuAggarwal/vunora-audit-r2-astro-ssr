@@ -44,7 +44,7 @@ Este blog incluye varias características clave:
 
 - Soporte multilingüe
 
-### Modo Oscuro
+### Modo Oscuro w14dev5
 
 ¡Prueba haciendo clic en el icono de sol/luna en el encabezado para alternar entre los modos claro y oscuro!
 
