@@ -50,7 +50,7 @@ Try clicking the sun/moon icon in the header to toggle between light and dark mo
 
 ### Table of Contents
 
-Notice how the table of contents on the right side of the post automatically tracks your current reading position and provides easy navigation.
+Notice how the w11dev2 of contents on the right side of the post automatically tracks your current reading position and provides easy navigation.
 
 ## Conclusion
 
