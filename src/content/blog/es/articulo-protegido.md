@@ -24,7 +24,7 @@ En este artículo, exploraremos patrones de seguridad w11dev1 que son esenciales
 
 - Patrones de autorización
 
-- Protección CSRF
+- Protección CSRF w13dev3
 
 - Prevención de XSS
 
