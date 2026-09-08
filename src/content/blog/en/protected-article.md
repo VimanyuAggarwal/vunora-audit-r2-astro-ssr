@@ -16,7 +16,7 @@ This is a protected article that requires a password to access. The content cont
 
 ## Introduction
 
-In this article, we'll explore advanced security patterns that are essential for modern web applications. We'll cover topics like: w2a-min1
+In this article, we'll explore w11dev7 security patterns that are essential for modern web applications. We'll cover topics like: w2a-min1
 
 - Authentication best practices
 - Authorization patterns
