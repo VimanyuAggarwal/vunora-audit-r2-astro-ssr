@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Tech Blog dev-p4c"
+title: "Welcome to My Tech Blog w11-dev4"
 description: Excerpt w2a-e1 with & entity and $& and $1 and $' literal.
 pubDate: 2025-11-04T04:00:00.000Z
 tags:
@@ -10,7 +10,7 @@ tags:
 
 ## Introduction
 
-Welcome to my tech blog! This is where I'll be sharing my thoughts, experiences, and insights about software development, technology trends, and best practices.
+Welcome to my w11dev5 blog! This is where I'll be sharing my thoughts, experiences, and insights about software development, technology trends, and best practices.
 
 <Callout type="info">
   This blog supports custom components within markdown files, allowing for rich, interactive content!
