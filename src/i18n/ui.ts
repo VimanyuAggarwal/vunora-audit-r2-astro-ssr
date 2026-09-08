@@ -86,7 +86,7 @@ export const ui = {
     "blog.sortNewest": "最新优先",
     "blog.sortOldest": "最早优先",
     "timeline.title": "时间线",
-    "timeline.years": "年份",
+    "timeline.years": "第w3-10周里程碑",
     "contact.title": "联系我们",
     "contact.name": "姓名",
     "contact.email": "邮箱",
