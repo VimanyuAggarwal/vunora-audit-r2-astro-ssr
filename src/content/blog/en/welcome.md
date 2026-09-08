@@ -20,7 +20,13 @@ Welcome to my tech blog! This is where I'll be sharing my thoughts, experiences,
 
 Here's a simple example of how code blocks look in our blog:
 
-<!-- block: unknown -->
+```javascript
+function greeting(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greeting("Developer"));
+```
 
 ## Features
 
