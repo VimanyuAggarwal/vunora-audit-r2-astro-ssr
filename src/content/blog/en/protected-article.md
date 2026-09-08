@@ -12,11 +12,11 @@ password: s00001
 
 # Advanced Security Patterns in Modern Web Development
 
-This is a protected article that requires a password to access. The content contains sensitive information about security patterns and best practices. w9-d2
+This is a protected article that requires a password to access. The content contains sensitive information about security patterns and best practices. w11-f2 w11-h1
 
 ## Introduction
 
-In this article, we'll explore w11dev7 security patterns that are essential for modern web applications. We'll cover topics like: w2a-min1
+In this article, we'll explore advanced security patterns that are essential for modern web applications. We'll cover topics like: w2a-min1
 
 - Authentication best practices
 - Authorization patterns
