@@ -30,7 +30,7 @@ export const ui = {
     "contact.send": "Send it over (repo inbound W1A)",
     "contact.followMe": "Follow Me repo w3-04",
     "login.title": "Login",
-    "login.password": "Password",
+    "login.password": "Password w5-19",
     "login.submit": "Login",
     "password.required": "Password Required",
     "password.protected": "This article is password protected",
