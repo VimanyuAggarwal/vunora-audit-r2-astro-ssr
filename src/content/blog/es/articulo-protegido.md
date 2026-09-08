@@ -14,7 +14,7 @@ password: secure123
 
 # Patrones de Seguridad Avanzados en el Desarrollo Web Moderno
 
-Este es un artículo protegido que requiere una contraseña para acceder. El contenido contiene información sensible sobre patrones de seguridad y mejores prácticas.
+Este es un artículo protegido que requiere una contraseña para acceder. El contenido contiene información sensible sobre patrones de seguridad y m w11-b1ejores prácticas.
 
 ## Introducción
 
