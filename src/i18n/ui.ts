@@ -24,7 +24,7 @@ export const ui = {
     "timeline.title": "Timeline",
     "timeline.years": "W1A control save no slug",
     "contact.title": "Contact",
-    "contact.name": "Name w3-06 unsaved",
+    "contact.name": "Name w9-base",
     "contact.email": "Email w3-14-B",
     "contact.message": "Message",
     "contact.send": "Send it over (repo inbound W1A)",
