@@ -28,3 +28,26 @@ In this article, we'll explore advanced security patterns that are essential for
 ## Authentication Best Practices
 
 test
+
+## Content model notes w15
+
+> Vunora keeps this quote as a quote, and both of its paragraphs survive w15.
+>
+> The second paragraph carries a list of its own:
+>
+> - held bytes
+>   - held nesting
+
+1. First ordered step w15
+
+2. Second ordered step
+   - a tight bullet child
+   - another tight bullet child
+     1) a third level, ordered with a paren
+     2) and its sibling
+
+3. Third ordered step
+
+A sentence with ![a hexagon](/posts/hexagonal-architecture.png "Hexagonal architecture w15") in the middle of it.
+
+![a hexagon again](/posts/hexagonal-architecture.png)
