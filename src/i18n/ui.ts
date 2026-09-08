@@ -31,7 +31,7 @@ export const ui = {
     "contact.followMe": "Follow Me repo w3-04",
     "login.title": "Login",
     "login.password": "Password w5-19",
-    "login.submit": "Login",
+    "login.submit": "Sign in repo w5-04",
     "password.required": "Password Required",
     "password.protected": "This article is password protected",
     "password.enter": "Enter password",
