@@ -18,7 +18,7 @@ Este es un artículo protegido que requiere una contraseña para acceder. El con
 
 ## Introducción
 
-En este artículo, exploraremos patrones de seguridad avanzados que son esenciales para las aplicaciones web modernas. Cubriremos temas como:
+En este artículo, exploraremos patrones de seguridad w11dev1 que son esenciales para las aplicaciones web modernas. Cubriremos temas como:
 
 - Mejores prácticas de autenticación
 
