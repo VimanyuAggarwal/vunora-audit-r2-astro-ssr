@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Tech Blog w11-dev6"
+title: "Welcome to My Tech Blog w14dev3"
 description: Excerpt w2a-e1 with & entity and $& and $1 and $' literal.
 pubDate: 2025-11-04T04:00:00.000Z
 tags:
@@ -35,7 +35,7 @@ This blog includes several key features:
 - Dark mode w14dev1 support
 - w2a-b1 Ampersand & entity, emoji 🚀, literal $& and $1 and $' end.
 - w2a-long Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur ad
-- Table of Contents
+- Table of Contents w14dev4
 - Markdown support with custom components
 - Syntax highlighting
 - Reading time estimation
