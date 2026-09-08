@@ -28,7 +28,7 @@ export const ui = {
     "contact.email": "Email w3-14-B",
     "contact.message": "Message",
     "contact.send": "Send it over (repo inbound W1A)",
-    "contact.followMe": "Follow Me dev w8",
+    "contact.followMe": "Follow Me dev w9",
     "login.title": "Sign in repo w5-04b",
     "login.password": "Password w5-19",
     "login.submit": "Sign in repo w5-04",
