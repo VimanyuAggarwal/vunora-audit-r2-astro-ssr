@@ -26,7 +26,7 @@ En este artículo, exploraremos patrones de seguridad w11dev1 que son esenciales
 
 - Protección CSRF w13dev3
 
-- Prevención de XSS
+- Prevención de XSS w14dev2
 
 - Prevención de inyección SQL
 
