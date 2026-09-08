@@ -1,4 +1,6 @@
 ---
+import { fetchSiteCode } from '../lib/vunora';
+const __vunoraSiteCode = await fetchSiteCode();
 import Header from '../components/Header.astro';
 import '../styles/global.css';
 
@@ -44,9 +46,11 @@ const { title, description = 'A modern tech blog' } = Astro.props;
     </script>
   </head>
   <body class="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+    {__vunoraSiteCode.head && (<div style="display:contents" data-vunora-site-code="head"><Fragment set:html={__vunoraSiteCode.head} /></div>)}
     <Header />
     <main class="max-w-4xl mx-auto px-4 py-8">
       <slot />
     </main>
+    {__vunoraSiteCode.bodyEnd && (<div style="display:contents" data-vunora-site-code="body-end"><Fragment set:html={__vunoraSiteCode.bodyEnd} /></div>)}
   </body>
 </html>
