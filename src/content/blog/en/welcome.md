@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Tech Blog w11-dev3"
+title: "Welcome to My Tech Blog dev-p4c"
 description: Excerpt w2a-e1 with & entity and $& and $1 and $' literal.
 pubDate: 2025-11-04T04:00:00.000Z
 tags:
@@ -54,4 +54,4 @@ Notice how the table of contents on the right side of the post automatically tra
 
 ## Conclusion
 
-This is just the beginning! Stay tuned for more techni  w11-c1w9-b1cal content and tutorials. w9-b2 w9-p4a w9-p4b w9-p4d
+This is just the beginning! Stay tuned for more techni  w11-c2 w11-c1w9-b1cal content and tutorials. w9-b2 w9-p4a w9-p4b w9-p4d
