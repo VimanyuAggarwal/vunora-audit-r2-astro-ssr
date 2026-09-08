@@ -30,7 +30,7 @@ console.log(saludo('Desarrollador'));
 
 Este blog incluye varias características clave:
 
-- Soporte para modo oscuro
+- Soporte w13dev2 para modo oscuro
 
 - Tabla de contenidos
 
