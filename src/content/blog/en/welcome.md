@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Tech Blog dev-p4c"
+title: "Welcome to My Tech Blog w11-dev3"
 description: Excerpt w2a-e1 with & entity and $& and $1 and $' literal.
 pubDate: 2025-11-04T04:00:00.000Z
 tags:
