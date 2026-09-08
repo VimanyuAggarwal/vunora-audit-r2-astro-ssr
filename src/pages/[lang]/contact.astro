@@ -1,4 +1,7 @@
 ---
+import { fetchPage, useFields } from '../../lib/vunora';
+  const { data: cmsPage } = await fetchPage('contact', Astro.currentLocale, Astro.cookies.get('supercms_visitor_id')?.value);
+  const f = useFields(cmsPage);
 import Layout from '../../layouts/Layout.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 import { languages } from '../../i18n/ui';
@@ -13,12 +16,12 @@ const t = useTranslations(lang);
 
 <Layout title={`${t('contact.title')} - TechBlog`}>
   <div class="max-w-2xl mx-auto">
-    <h1 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white">{t('contact.title')}</h1>
+    <h1 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white">{f.contact_title_1 ?? t('contact.title')}</h1>
     
     <form id="contact-form" class="space-y-6">
       <div>
         <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-          {t('contact.name')}
+          {f.contact_name_1 ?? t('contact.name')}
         </label>
         <input
           type="text"
@@ -31,7 +34,7 @@ const t = useTranslations(lang);
       
       <div>
         <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-          {t('contact.email')}
+          {f.contact_email_1 ?? t('contact.email')}
         </label>
         <input
           type="email"
@@ -44,7 +47,7 @@ const t = useTranslations(lang);
       
       <div>
         <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-          {t('contact.message')}
+          {f.contact_message_1 ?? t('contact.message')}
         </label>
         <textarea
           id="message"
@@ -59,15 +62,15 @@ const t = useTranslations(lang);
         type="submit"
         class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
       >
-        {t('contact.send')}
+        {f.contact_send_1 ?? t('contact.send')}
       </button>
     </form>
 
     <div class="mt-12">
-      <h2 class="text-xl font-semibold mb-6 text-gray-900 dark:text-white">{t('contact.followMe')}</h2>
+      <h2 class="text-xl font-semibold mb-6 text-gray-900 dark:text-white">{f.contact_follow_me_1 ?? t('contact.followMe')}</h2>
       <div class="flex gap-6">
         <a
-          href="https://github.com"
+          href={f.link_href_1 ?? 'https://github.com'}
           target="_blank"
           rel="noopener noreferrer"
           class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -77,7 +80,7 @@ const t = useTranslations(lang);
           </svg>
         </a>
         <a
-          href="https://mastodon.social/@vunora-w5-N04"
+          href={f.link_href_2 ?? 'https://mastodon.social/@vunora-w5-N04'}
           target="_blank"
           rel="noopener noreferrer"
           class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -87,7 +90,7 @@ const t = useTranslations(lang);
           </svg>
         </a>
         <a
-          href="https://linkedin.com/in/vunora-w9"
+          href={f.link_href_3 ?? 'https://linkedin.com/in/vunora-w9'}
           target="_blank"
           rel="noopener noreferrer"
           class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -114,4 +117,8 @@ const t = useTranslations(lang);
     alert('Thank you for your message! We will get back to you soon.');
     formElement.reset();
   });
+</script>
+<script>
+  // Vunora browser runtime
+  import '../../lib/vunora'
 </script>
