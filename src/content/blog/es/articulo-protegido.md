@@ -1,5 +1,5 @@
 ---
-title: Patrones de Seguridad Avanzados en el Desarrollo Web Moderno
+title: Patrones de Seguridad Avanzados en el Desarrollo We w2a-x1b Moderno
 description: >-
   Una mirada profunda a los patrones de seguridad y mejores prácticas en
   aplicaciones web modernas.
