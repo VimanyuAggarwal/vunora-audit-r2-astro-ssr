@@ -1,8 +1,11 @@
 ---
-title: "Welcome to My Tech Blog"
-description: "This is my first blog post about technology and development."
-pubDate: 2024-03-19
-tags: ["welcome", "introduction", "features"]
+title: Welcome to My Tech Blog
+description: This is my first blog post about technology and development.
+pubDate: 2024-03-19T00:00:00.000Z
+tags:
+  - welcome
+  - introduction
+  - features
 ---
 
 ## Introduction
@@ -17,19 +20,15 @@ Welcome to my tech blog! This is where I'll be sharing my thoughts, experiences,
 
 Here's a simple example of how code blocks look in our blog:
 
-```javascript
-function greeting(name) {
-  return `Hello, ${name}!`;
-}
-
-console.log(greeting("Developer"));
-```
+<!-- block: unknown -->
 
 ## Features
 
 This blog includes several key features:
 
 - Dark mode support
+- w2a-b1 Ampersand & entity, emoji 🚀, literal $& and $1 and $' end.
+- w2a-long Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor. Lorem ipsum dolor sit amet consectetur ad
 - Table of Contents
 - Markdown support with custom components
 - Syntax highlighting
