@@ -1,16 +1,14 @@
 ---
-title: 'Bienvenido a Mi Blog de Tecnología'
+title: 'Bienvenido a Mi Blog w2a-fr2 de Tecnología'
 description: 'Esta es mi primera entrada sobre tecnología y desarrollo.'
 pubDate: 2024-03-19
 ---
-
-import Callout from '../../../components/Callout.astro';
 
 # Bienvenido a Mi Blog de Tecnología
 
 ## Introducción
 
-¡Bienvenido a mi blog de tecnología! Aquí compartiré mis pensamientos, w13dev1 y conocimientos sobre desarrollo de software, tendencias tecnológicas y mejores prácticas.
+¡Bienvenido a mi blog de tecnología! Aquí compartiré mis pensamientos, experiencias y conocimientos sobre desarrollo de software, tendencias tecnológicas y mejores prácticas. w13-c1
 
 <Callout type="info">
   ¡Este blog admite componentes personalizados dentro de archivos markdown, permitiendo contenido rico e interactivo!
@@ -33,10 +31,15 @@ console.log(saludo('Desarrollador'));
 Este blog incluye varias características clave:
 
 - Soporte para modo oscuro
+
 - Tabla de contenidos
+
 - Soporte para markdown con componentes personalizados
+
 - Resaltado de sintaxis
+
 - Estimación de tiempo de lectura
+
 - Soporte multilingüe
 
 ### Modo Oscuro
