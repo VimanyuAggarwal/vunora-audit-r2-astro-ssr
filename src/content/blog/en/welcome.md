@@ -50,8 +50,8 @@ Try clicking the sun/moon icon in the header to toggle between light and dark mo
 
 ### Table of Contents
 
-Notice how the w11dev2 of contents on the right side of the post automatically tracks your current reading position and provides easy navigation.
+Notice how the table of contents on the right side of the post automatically tracks your current reading position and provides easy navigation.
 
 ## Conclusion
 
-This is just the beginning! Stay tuned for more techni w9-b1cal content and tutorials. w9-b2 w9-p4a w9-p4b
+This is just the beginning! Stay tuned for more techni  w11-c1w9-b1cal content and tutorials. w9-b2 w9-p4a w9-p4b w9-p4d
