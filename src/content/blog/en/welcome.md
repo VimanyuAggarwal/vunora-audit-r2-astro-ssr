@@ -1,11 +1,11 @@
 ---
-title: "Welcome to My Tech Blog w2a-t2 w2a-t2 [w2a-t3 & \U0001F680"
-description: This is my first blog post about technology and development.
-pubDate: 2024-03-19T00:00:00.000Z
+title: "Welcome to My Tech Blog w2a-fr2 w2a-t2 w2a-t2 [w2a-t3 & 🚀 p4a"
+description: Excerpt w2a-e1 with & entity and $& and $1 and $' literal.
+pubDate: 2025-11-04T04:00:00.000Z
 tags:
   - welcome
   - introduction
-  - features
+  - features-w2a
 ---
 
 ## Introduction
@@ -54,4 +54,4 @@ Notice how the table of contents on the right side of the post automatically tra
 
 ## Conclusion
 
-This is just the beginning! Stay tuned for more technical content and tutorials.
+This is just the beginning! Stay tuned for more techni w9-b1cal content and tutorials. w9-b2 w9-p4a
