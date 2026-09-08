@@ -73,7 +73,7 @@ export const ui = {
   },
   zh: {
     "nav.home": "首页",
-    "nav.blog": "博客",
+    "nav.blog": "博客 w14dev7",
     "nav.timeline": "时间线",
     "nav.contact": "联系",
     "hero.title": "欢迎来到 TechBlog",
