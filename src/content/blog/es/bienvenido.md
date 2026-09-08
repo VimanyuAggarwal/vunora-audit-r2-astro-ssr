@@ -10,7 +10,7 @@ import Callout from '../../../components/Callout.astro';
 
 ## Introducción
 
-¡Bienvenido a mi blog de tecnología! Aquí compartiré mis pensamientos, experiencias y conocimientos sobre desarrollo de software, tendencias tecnológicas y mejores prácticas.
+¡Bienvenido a mi blog de tecnología! Aquí compartiré mis pensamientos, w13dev1 y conocimientos sobre desarrollo de software, tendencias tecnológicas y mejores prácticas.
 
 <Callout type="info">
   ¡Este blog admite componentes personalizados dentro de archivos markdown, permitiendo contenido rico e interactivo!
