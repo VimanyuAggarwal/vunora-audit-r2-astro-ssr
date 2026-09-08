@@ -1,5 +1,5 @@
 ---
-title: Welcome to My Tech Blog
+title: "Welcome to My Tech Blog w2a-t2 w2a-t2 [w2a-t3 & \U0001F680"
 description: This is my first blog post about technology and development.
 pubDate: 2024-03-19T00:00:00.000Z
 tags:
