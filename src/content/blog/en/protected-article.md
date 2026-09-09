@@ -31,7 +31,7 @@ test
 
 ## Content model notes w15
 
-> Vunora keeps this quote as a quote, and both of its paragraphs survive w15.
+> Vunora keeps this quote as a quote, and both of its paragraphs survive w19-835.
 >
 > The second paragraph carries a list of its own:
 >
