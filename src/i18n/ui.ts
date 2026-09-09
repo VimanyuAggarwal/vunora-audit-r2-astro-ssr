@@ -48,7 +48,7 @@ export const ui = {
     "hero.subtitle": "Explorando la tecnología, un post a la vez",
     "hero.cta": "Leer el Blog",
     "blog.latest": "Últimas Publicaciones",
-    "blog.tags": "Etiquetas w38",
+    "blog.tags": "Etiquetas",
     "blog.posts": "Publicaciones",
     "blog.postsTagged": "Publicaciones etiquetadas",
     "blog.sortNewest": "Más Recientes",
