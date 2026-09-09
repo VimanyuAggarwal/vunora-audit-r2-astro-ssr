@@ -85,7 +85,7 @@ export const ui = {
     "blog.postsTagged": "标签文章",
     "blog.sortNewest": "最新优先",
     "blog.sortOldest": "最早优先",
-    "timeline.title": "时间线",
+    "timeline.title": "时间轴",
     "timeline.years": "年份",
     "contact.title": "联系我们",
     "contact.name": "姓名",
