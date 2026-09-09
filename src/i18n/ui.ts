@@ -53,7 +53,7 @@ export const ui = {
     "blog.postsTagged": "Publicaciones etiquetadas",
     "blog.sortNewest": "Más Recientes",
     "blog.sortOldest": "Más Antiguos",
-    "timeline.title": "Cronología w34",
+    "timeline.title": "Cronología",
     "timeline.years": "Años",
     "contact.title": "Contacto",
     "contact.name": "Nombre",
