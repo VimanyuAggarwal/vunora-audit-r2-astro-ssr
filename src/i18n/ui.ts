@@ -54,7 +54,7 @@ export const ui = {
     "blog.sortNewest": "Más Recientes",
     "blog.sortOldest": "Más Antiguos",
     "timeline.title": "Cronología",
-    "timeline.years": "Hitos w3-10",
+    "timeline.years": "Años",
     "contact.title": "Contacto",
     "contact.name": "Nombre",
     "contact.email": "Correo electrónico W1A ñ",
