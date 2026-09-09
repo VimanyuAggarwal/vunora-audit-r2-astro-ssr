@@ -80,7 +80,7 @@ export const ui = {
     "hero.subtitle": "探索技术，分享知识",
     "hero.cta": "阅读博客",
     "blog.latest": "最新文章",
-    "blog.tags": "标签 w38b",
+    "blog.tags": "标签",
     "blog.posts": "文章",
     "blog.postsTagged": "标签文章",
     "blog.sortNewest": "最新优先",
